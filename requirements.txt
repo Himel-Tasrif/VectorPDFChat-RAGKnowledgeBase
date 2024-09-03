@@ -1,0 +1,14 @@
+openai
+langchain
+faiss-cpu
+pypdf
+tiktoken
+langchain-community
+torch
+transformers
+sentence-transformers
+tqdm
+accelerate
+chromadb
+unidecode
+huggingface_hub
