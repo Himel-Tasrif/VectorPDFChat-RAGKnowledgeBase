@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 model_directory = "./mistral_model"  # Directory to save the model
 
 # Hugging Face Access Token
-hf_access_token = "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"  # Replace with your actual token
+hf_access_token = "your hugguing face token"  # Replace with your actual token
 
 # Load the model and tokenizer using the access token
 model = AutoModelForCausalLM.from_pretrained(
