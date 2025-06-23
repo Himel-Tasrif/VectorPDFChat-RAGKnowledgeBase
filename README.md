@@ -1,4 +1,4 @@
-# Haor PDF Chatbot 🌊📚
+# Haor PDF Chatbot
 
 A custom knowledge-based PDF query chatbot using RAG, a VectorDB, and the Mistral-7B-Instruct-v0.2 LLM. Built with Gradio for an interactive web interface.  
 
@@ -6,7 +6,7 @@ A custom knowledge-based PDF query chatbot using RAG, a VectorDB, and the Mistra
 
 ---
 
-## 🔧 Features
+## Features
 
 - Extracts knowledge from PDFs using Retrieval-Augmented Generation (RAG).
 - Stores embeddings in a VectorDB (e.g., FAISS, Chroma, or other).
@@ -16,13 +16,19 @@ A custom knowledge-based PDF query chatbot using RAG, a VectorDB, and the Mistra
 
 ---
 
-## 📥 Requirements
+## Requirements
 
 Make sure you have Python 3.10+ installed, then clone and install dependencies:
 
 ```bash
 git clone https://huggingface.co/spaces/himel06/Haor_PDF_Chatbot.git
+```
+
+```bash
 cd Haor_PDF_Chatbot
+```
+```bash
 pip install -r requirements.txt
+```
 
-
+All Rig
