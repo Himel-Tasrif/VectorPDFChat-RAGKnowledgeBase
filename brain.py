@@ -201,10 +201,15 @@ def demo():
         with gr.Row():
             submit_btn = gr.Button("Submit message")
             clear_btn = gr.ClearButton([msg, chatbot], value="Clear conversation")
-
+        '''
         db_btn.click(initialize_database, \
                      inputs=[pdf_directory, slider_chunk_size, slider_chunk_overlap], \
                      outputs=[vector_db, collection_name, db_progress])
+                     '''
+        
+        db_btn.click(fn=lambda chunk_size, chunk_overlap: initialize_database("data", chunk_size, chunk_overlap),
+             inputs=[slider_chunk_size, slider_chunk_overlap],
+             outputs=[vector_db, collection_name, db_progress])
         qachain_btn.click(initialize_LLM, \
                           inputs=[slider_temperature, slider_maxtokens, slider_topk, vector_db], \
                           outputs=[qa_chain, llm_progress]).then(lambda: [None, "", 0, "", 0, "", 0], \
