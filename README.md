@@ -9,7 +9,7 @@ A custom knowledge-based PDF query chatbot using RAG, a VectorDB, and the Mistra
 ## Features
 
 - Extracts knowledge from PDFs using Retrieval-Augmented Generation (RAG).
-- Stores embeddings in a VectorDB (e.g., FAISS, Chroma, or other).
+- Stores embeddings in a VectorDB (e.g.Chromadb).
 - Interfaces with `mistralai/Mistral-7B-Instruct-v0.2` LLM.
 - Multiple approaches: different `.py` modules (e.g., `app.py`, `brain.py`) offering alternative workflows.
 - Gradio-based web UI for an easy interactive experience.
