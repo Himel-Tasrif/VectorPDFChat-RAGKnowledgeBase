@@ -31,4 +31,4 @@ cd Haor_PDF_Chatbot
 pip install -r requirements.txt
 ```
 
-All Rights Reserved by @ [Tasrif Nur Himel](www.tasrifnurhimel.me)
+
